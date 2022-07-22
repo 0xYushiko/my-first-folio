@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>function pictureChange()
+        {
+        document.getElementById('light/dark').src="pics/soleil_dark.png";
+        }</script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Yushiko</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>0xYUSHIKO</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">In Progress</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="icon">
+            <a href="#">
+                <img id="github" src="pics/github_light.png" alt="Icon GitHub">
+            </a>
+            <a href="#">
+                <img id="twitter" src="pics/twitter_light.png" alt="Icon Twitter">
+            </a>
+            <a href="#">
+                <img id="discord" src="pics/discord_light.png" alt="Icon Discord">
+            </a>
+            <button id="theme-btn" onclick="pictureChange()"><img id="light/dark" src="pics/lune_light.png" alt="Icon LightMod/Darkmod"></button>
+        </div>
+    </header>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

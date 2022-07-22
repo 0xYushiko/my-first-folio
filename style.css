@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'DS-DIGIB';
+    src: url('fonts/DS-DIGIB.TTF') format('truetype');
+}
+
+body{
+    margin-right: 30px;
+    margin-left: 30px;
+    background: white;
+    color: #495057;
+}
+
+/*DARK MOD*/
+
+.dark{
+    background-color: #1F1D36;
+    color: #ECDBBA;
+}
+
+.dark nav ul{
+    border: 2px solid #ECDBBA;
+    color: #ECDBBA;
+}
+
+.dark nav a{
+    color: #ECDBBA;
+}
+
+.dark nav a:hover{
+    border: 2px solid #ECDBBA;
+    color: #ECDBBA;
+    background: #59405C;
+}
+
+.dark header div a:hover{
+    border: 2px solid #ECDBBA;
+    border-radius: 10px;
+    background: #59405C;
+}
+
+.dark header div button:hover{
+    border: 2px solid #ECDBBA;
+    border-radius: 10px;
+    background: #59405C;
+}
+
+
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO */
+
+.logo{
+    display: flex;
+    font-family: 'DS-DIGIB', sans-serif;
+    align-items: center;
+}
+
+/* NAVBAR */
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #495057;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li{
+    margin: 1px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #495057;
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    border: 2px solid #495057;
+    border-radius: 12px;
+    color: #495057;
+    background: #FFF9CA;
+}
+
+/* ICON */
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon a{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon a:hover{
+    border: 2px solid #495057;
+    border-radius: 10px;
+    background: #FFF9CA;
+}
+
+.icon button{
+    all: unset;
+    display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon button:hover{
+    border: 2px solid #495057;
+    border-radius: 10px;
+    background: #FFF9CA;
+}
